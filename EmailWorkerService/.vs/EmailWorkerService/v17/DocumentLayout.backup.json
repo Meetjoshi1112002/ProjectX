@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HEMANT\\Desktop\\Vengence\\EmailWorkerService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2846EF47-5266-42A7-8229-CCE59709BBB1}|EmailWorkerService.csproj|c:\\users\\hemant\\desktop\\vengence\\emailworkerservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2846EF47-5266-42A7-8229-CCE59709BBB1}|EmailWorkerService.csproj|solutionrelative:worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2846EF47-5266-42A7-8229-CCE59709BBB1}|EmailWorkerService.csproj|c:\\users\\hemant\\desktop\\vengence\\emailworkerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2846EF47-5266-42A7-8229-CCE59709BBB1}|EmailWorkerService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2846EF47-5266-42A7-8229-CCE59709BBB1}|EmailWorkerService.csproj|c:\\users\\hemant\\desktop\\vengence\\emailworkerservice\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2846EF47-5266-42A7-8229-CCE59709BBB1}|EmailWorkerService.csproj|solutionrelative:services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2846EF47-5266-42A7-8229-CCE59709BBB1}|EmailWorkerService.csproj|c:\\users\\hemant\\desktop\\vengence\\emailworkerservice\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2846EF47-5266-42A7-8229-CCE59709BBB1}|EmailWorkerService.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2846EF47-5266-42A7-8229-CCE59709BBB1}|EmailWorkerService.csproj|c:\\users\\hemant\\desktop\\vengence\\emailworkerservice\\models\\emailbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2846EF47-5266-42A7-8229-CCE59709BBB1}|EmailWorkerService.csproj|solutionrelative:models\\emailbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 199,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\EmailWorkerService\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\EmailWorkerService\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-06T11:50:40.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\EmailWorkerService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\EmailWorkerService\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T10:18:50.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\EmailWorkerService\\Services\\EmailSender.cs",
+              "RelativeDocumentMoniker": "Services\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\EmailWorkerService\\Services\\EmailSender.cs",
+              "RelativeToolTip": "Services\\EmailSender.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwEMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T10:11:11.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmailBody.cs",
+              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\EmailWorkerService\\Models\\EmailBody.cs",
+              "RelativeDocumentMoniker": "Models\\EmailBody.cs",
+              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\EmailWorkerService\\Models\\EmailBody.cs",
+              "RelativeToolTip": "Models\\EmailBody.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:57:17.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\EmailWorkerService\\Worker.cs",
+              "RelativeDocumentMoniker": "Worker.cs",
+              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\EmailWorkerService\\Worker.cs",
+              "RelativeToolTip": "Worker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:37:56.52Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

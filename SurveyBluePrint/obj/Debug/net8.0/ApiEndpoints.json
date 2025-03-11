@@ -1,0 +1,312 @@
+[
+  {
+    "ContainingType": "SurveyBluePrint.Controllers.SurveyConfigController",
+    "Method": "GetSurveyConfig",
+    "RelativePath": "api/survey-config/{surveyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "surveyId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyBluePrint.Models.ApiResponse\u00601[[SurveyBluePrint.Models.DTOs.SurveyConfigurationDto, SurveyBluePrint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyBluePrint.Controllers.SurveyConfigController",
+    "Method": "UpdateSurveyConfig",
+    "RelativePath": "api/survey-config/{surveyId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "surveyId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "configDto",
+        "Type": "SurveyBluePrint.Models.DTOs.SurveyConfigurationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyBluePrint.Models.ApiResponse\u00601[[SurveyBluePrint.Models.DTOs.SurveyConfigurationDto, SurveyBluePrint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyBluePrint.Controllers.SurveyConfigController",
+    "Method": "UpdateAccessControl",
+    "RelativePath": "api/survey-config/{surveyId}/access-control",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "surveyId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "accessControlDto",
+        "Type": "SurveyBluePrint.Models.DTOs.AccessControlDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyBluePrint.Models.ApiResponse\u00601[[SurveyBluePrint.Models.DTOs.AccessControlDto, SurveyBluePrint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyBluePrint.Controllers.SurveyConfigController",
+    "Method": "UpdateResponseLimit",
+    "RelativePath": "api/survey-config/{surveyId}/response-limit",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "surveyId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "responseLimitDto",
+        "Type": "SurveyBluePrint.Models.DTOs.ResponseLimitDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyBluePrint.Models.ApiResponse\u00601[[SurveyBluePrint.Models.DTOs.ResponseLimitDto, SurveyBluePrint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyBluePrint.Controllers.SurveyConfigController",
+    "Method": "UpdateScheduling",
+    "RelativePath": "api/survey-config/{surveyId}/scheduling",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "surveyId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "schedulingDto",
+        "Type": "SurveyBluePrint.Models.DTOs.SchedulingConfigDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyBluePrint.Models.ApiResponse\u00601[[SurveyBluePrint.Models.DTOs.SchedulingConfigDto, SurveyBluePrint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyBluePrint.Controllers.SurveyConfigController",
+    "Method": "UpdateSurveyStatus",
+    "RelativePath": "api/survey-config/{surveyId}/status",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "surveyId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "statusUpdate",
+        "Type": "SurveyBluePrint.Controllers.StatusUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyBluePrint.Models.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyBluePrint.Controllers.SurveyBlueprintController",
+    "Method": "GetAllSurveys",
+    "RelativePath": "api/surveys",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyBluePrint.Models.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[SurveyBluePrint.Models.DTOs.SurveyDto, SurveyBluePrint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyBluePrint.Controllers.SurveyBlueprintController",
+    "Method": "CreateSurvey",
+    "RelativePath": "api/surveys",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "surveyDto",
+        "Type": "SurveyBluePrint.Models.DTOs.SurveyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyBluePrint.Models.ApiResponse\u00601[[SurveyBluePrint.Models.DTOs.SurveyDto, SurveyBluePrint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyBluePrint.Controllers.SurveyBlueprintController",
+    "Method": "GetSurveyById",
+    "RelativePath": "api/surveys/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyBluePrint.Models.ApiResponse\u00601[[SurveyBluePrint.Models.DTOs.SurveyDto, SurveyBluePrint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyBluePrint.Controllers.SurveyBlueprintController",
+    "Method": "UpdateSurvey",
+    "RelativePath": "api/surveys/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "surveyDto",
+        "Type": "SurveyBluePrint.Models.DTOs.SurveyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyBluePrint.Models.ApiResponse\u00601[[SurveyBluePrint.Models.DTOs.SurveyDto, SurveyBluePrint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyBluePrint.Controllers.SurveyBlueprintController",
+    "Method": "DeleteSurvey",
+    "RelativePath": "api/surveys/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyBluePrint.Models.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

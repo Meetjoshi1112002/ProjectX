@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "YiESFupbKyTNL6QnMF5LV/jh7HUh2aB99b/RqWvx80k=",
+  "Source": "MasterNode",
+  "BasePath": "_content/MasterNode",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

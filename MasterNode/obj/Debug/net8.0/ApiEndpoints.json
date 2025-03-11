@@ -1,0 +1,175 @@
+[
+  {
+    "ContainingType": "MasterNode.Controllers.SurveyConfigController",
+    "Method": "UpdateSurveyConfig",
+    "RelativePath": "api/basic-config/{surveyId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "surveyId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "_dto",
+        "Type": "MasterNode.Models.DTOs.DTO02\u002BResposneLimitDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterNode.Controllers.RestrictedSurveyConfig",
+    "Method": "AddUser",
+    "RelativePath": "api/config/add-user/{surveyId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "surveyId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "_dto",
+        "Type": "MasterNode.Models.DTOs.DTO02\u002BUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterNode.Controllers.RestrictedSurveyConfig",
+    "Method": "RemoveUser",
+    "RelativePath": "api/config/remove-user/{surveyId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "surveyId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "_dto",
+        "Type": "MasterNode.Models.DTOs.DTO02\u002BUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterNode.Controllers.RestrictedSurveyConfig",
+    "Method": "UpdateLinkSetting",
+    "RelativePath": "api/config/update-link/{surveyId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "surveyId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "RequireUniqueLink",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "LinkExpiryHours",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyEndController",
+    "Method": "ScheduleEnd",
+    "RelativePath": "api/schedule-end/{surveyId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "surveyId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "endTime",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterNode.Controllers.ScheduleRemainderController",
+    "Method": "UpdateRemainder",
+    "RelativePath": "api/schedule-remainder/{surveyId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "surveyId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "interval",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyStartController",
+    "Method": "ScheduleStart",
+    "RelativePath": "api/schedule-start/{surveyId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "surveyId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "startTime",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterNode.Controllers.SurveyConfigController",
+    "Method": "UpdateQuizConfig",
+    "RelativePath": "quiz-config/{surveyId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "surveyId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "duration",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

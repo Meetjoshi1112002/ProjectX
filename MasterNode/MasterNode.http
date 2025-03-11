@@ -1,0 +1,6 @@
+@MasterNode_HostAddress = http://localhost:5038
+
+GET {{MasterNode_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

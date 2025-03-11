@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "SignupController",
+    "Method": "RequestVerification",
+    "RelativePath": "api/auth/req-register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "OnBoarding.Models.DTOs.DTO01",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignupController",
+    "Method": "VerifyOtp",
+    "RelativePath": "api/auth/verify-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "OnBoarding.Models.DTOs.DTO02",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnBoarding.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "OnBoarding.Models.DTOs.DTO03",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnBoarding.Controllers.LoginController",
+    "Method": "Logout",
+    "RelativePath": "api/Login/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnBoarding.Controllers.TestController",
+    "Method": "CheckMongoDB",
+    "RelativePath": "api/Test/mongodb",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

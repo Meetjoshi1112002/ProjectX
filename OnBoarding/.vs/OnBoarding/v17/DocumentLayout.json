@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HEMANT\\Desktop\\Vengence\\OnBoarding\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D1B0753-917B-49B2-97BB-FE497472B981}|OnBoarding.csproj|c:\\users\\hemant\\desktop\\vengence\\onboarding\\models\\pocos\\emailbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D1B0753-917B-49B2-97BB-FE497472B981}|OnBoarding.csproj|solutionrelative:models\\pocos\\emailbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D1B0753-917B-49B2-97BB-FE497472B981}|OnBoarding.csproj|c:\\users\\hemant\\desktop\\vengence\\onboarding\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D1B0753-917B-49B2-97BB-FE497472B981}|OnBoarding.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D1B0753-917B-49B2-97BB-FE497472B981}|OnBoarding.csproj|c:\\users\\hemant\\desktop\\vengence\\onboarding\\services\\myemailproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D1B0753-917B-49B2-97BB-FE497472B981}|OnBoarding.csproj|solutionrelative:services\\myemailproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D1B0753-917B-49B2-97BB-FE497472B981}|OnBoarding.csproj|c:\\users\\hemant\\desktop\\vengence\\onboarding\\onboarding.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2D1B0753-917B-49B2-97BB-FE497472B981}|OnBoarding.csproj|solutionrelative:onboarding.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D1B0753-917B-49B2-97BB-FE497472B981}|OnBoarding.csproj|c:\\users\\hemant\\desktop\\vengence\\onboarding\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D1B0753-917B-49B2-97BB-FE497472B981}|OnBoarding.csproj|solutionrelative:controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D1B0753-917B-49B2-97BB-FE497472B981}|OnBoarding.csproj|c:\\users\\hemant\\desktop\\vengence\\onboarding\\models\\pocos\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D1B0753-917B-49B2-97BB-FE497472B981}|OnBoarding.csproj|solutionrelative:models\\pocos\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D1B0753-917B-49B2-97BB-FE497472B981}|OnBoarding.csproj|c:\\users\\hemant\\desktop\\vengence\\onboarding\\mappingprofile\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D1B0753-917B-49B2-97BB-FE497472B981}|OnBoarding.csproj|solutionrelative:mappingprofile\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 199,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OnBoarding.csproj",
+              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\OnBoarding\\OnBoarding.csproj",
+              "RelativeDocumentMoniker": "OnBoarding.csproj",
+              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\OnBoarding\\OnBoarding.csproj",
+              "RelativeToolTip": "OnBoarding.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-06T19:12:19.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OTP.cs",
+              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\OnBoarding\\Models\\POCOs\\OTP.cs",
+              "RelativeDocumentMoniker": "Models\\POCOs\\OTP.cs",
+              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\OnBoarding\\Models\\POCOs\\OTP.cs",
+              "RelativeToolTip": "Models\\POCOs\\OTP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T10:30:55.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\OnBoarding\\MappingProfile\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "MappingProfile\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\OnBoarding\\MappingProfile\\AutoMapperProfile.cs",
+              "RelativeToolTip": "MappingProfile\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T10:29:00.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SignupController.cs",
+              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\OnBoarding\\Controllers\\SignupController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SignupController.cs",
+              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\OnBoarding\\Controllers\\SignupController.cs",
+              "RelativeToolTip": "Controllers\\SignupController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:15:43.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\OnBoarding\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\OnBoarding\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:14:18.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailBody.cs",
+              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\OnBoarding\\Models\\POCOs\\EmailBody.cs",
+              "RelativeDocumentMoniker": "Models\\POCOs\\EmailBody.cs",
+              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\OnBoarding\\Models\\POCOs\\EmailBody.cs",
+              "RelativeToolTip": "Models\\POCOs\\EmailBody.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T07:52:28.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyEmailProducer.cs",
+              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\OnBoarding\\Services\\MyEmailProducer.cs",
+              "RelativeDocumentMoniker": "Services\\MyEmailProducer.cs",
+              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\OnBoarding\\Services\\MyEmailProducer.cs",
+              "RelativeToolTip": "Services\\MyEmailProducer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T07:27:43.873Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
