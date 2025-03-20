@@ -24,11 +24,6 @@ namespace MasterNode.Models.DTOs
         public int? RemainderInterval { get; set; }
     }
 
-    public class SlaveResponse
-    {
-        [Required]
-        public string JobId { get; set; }
-    }
     //public class MessageDto // this is what 
     //{
     //    public List<WorkerTask> Tasks { get; set; } = new List<WorkerTask>();

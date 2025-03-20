@@ -16,7 +16,7 @@ namespace MasterNode.Services
 
         public async Task<ApiResponse> SendCommand(MessageDto _dto)
         {
-            var request = new RestRequest("/inform-task",Method.Post);
+            var request = new RestRequest("/api/inform-task",Method.Post);
             request.AddJsonBody(_dto);
             return await _client.PostAsync<ApiResponse>(request)??new ApiResponse
             {

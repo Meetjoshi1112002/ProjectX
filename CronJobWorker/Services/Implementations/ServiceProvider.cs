@@ -1,12 +1,15 @@
 ﻿using CronJobWorker.Models.POCOs;
-using Microsoft.Extensions.Primitives;
+using Microsoft.IdentityModel.Tokens;
 using MongoDB.Driver;
 using OnBoarding.Data;
 using SurveyBluePrint.Models.POCOs;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace CronJobWorker.Services.Implementations
 {
-    public class ServiceProvider
+    public class SurveyServiceProvider
     {
         private readonly AppDbContext _context;
         private readonly IMongoCollection<SurveySchema> _surveys;
@@ -14,7 +17,7 @@ namespace CronJobWorker.Services.Implementations
         private readonly ILogger<ServiceProvider> _logger;
         private readonly KafkaProducerService _kafkaProducer;
 
-        public ServiceProvider(
+        public SurveyServiceProvider(
             AppDbContext context,
             ILogger<ServiceProvider> logger,
             KafkaProducerService kafkaProducer)
@@ -29,58 +32,111 @@ namespace CronJobWorker.Services.Implementations
         public async Task ScheduleStart(string surveyId)
         {
             var filter = Builders<SurveySchema>.Filter.Where(s => s.Id == surveyId);
-
             var update = Builders<SurveySchema>.Update
                 .Set(s => s.Config.Status, SurveyStatus.Active);
 
             var options = new FindOneAndUpdateOptions<SurveySchema>
             {
-                ReturnDocument = ReturnDocument.After 
+                ReturnDocument = ReturnDocument.After
             };
 
             var updatedSurvey = await _surveys.FindOneAndUpdateAsync(filter, update, options);
 
-            if(updatedSurvey == null)
+            if (updatedSurvey == null)
             {
-                var filterTask = Builders<SurveyTask>.Filter.Where(t => t.SurveyId == surveyId && t.TaskStatus == Models.POCOs.TaskStatus.Pending && t.TaskType == TaskType.ScheduleStart);
-                var updateTask = Builders<SurveyTask>.Update
-                    .Set(t => t.TaskStatus, Models.POCOs.TaskStatus.Failed);
+                _logger.LogError($"Survey {surveyId} not found or update failed.");
                 return;
             }
 
-            /// if the survey is restricted then we need to send email to some allowed user as well
-            if(updatedSurvey.Config.AccessControl.AccessType == AccessType.Restricted)
+            // If unrestricted, we're done here.
+            _logger.LogInformation($"Survey {surveyId}, activation complete.");
+
+            if (updatedSurvey.Config.AccessControl.AccessType == AccessType.Restricted)
             {
+                
+                // Now handling restricted survey email logic.
                 List<UserDetails> users = updatedSurvey.Config.AccessControl.AllowedUserIds;
-                if(users.Count > 0)
+                if (users == null || users.Count == 0)
                 {
-                    List<EmailBody> emails = new List<EmailBody>();
-                    EmailBody email = new();
-                    foreach(UserDetails user in users)
-                    {
-                        string token;
-                        /// if unique link is requrired or not
-                        if (updatedSurvey.Config.AccessControl.RequireUniqueLink)
-                        {
-                            token = _tokerCreator(surveyId, user.UserId, updatedSurvey.Config.AccessControl.LinkExpiryHours);
-                            email.Template = Template.UniqueLink;
-                            email.Info = "This is a one time invite unqiue link with expiry of " + updatedSurvey.Config.AccessControl.LinkExpiryHours
-                        }
-                        else
-                        {
-                            token = _tokenCreator(surveyId);
-                            email.Template = Template.Invite;
-                            email.Info = "Link to fill the survey";
-                        }
-                        email.Email = user.Email;
-                        email.Link = "https://localhost:7890/survey/" + token;
-                        emails.Add(email);
-                    }
+                    _logger.LogWarning($"Survey {surveyId} is restricted but has no allowed users.");
+                    return;
                 }
+
+                bool isUniqueLinkRequired = updatedSurvey.Config.AccessControl.RequireUniqueLink;
+                int? expiryHours = updatedSurvey.Config.AccessControl.LinkExpiryHours;
+
+                List<EmailBody> emails = new List<EmailBody>();
+
+                foreach (UserDetails user in users)
+                {
+                    string token;
+                    string info;
+                    Template emailTemplate;
+
+                    if (isUniqueLinkRequired)
+                    {
+                        token = _tokenCreator(surveyId, user.UserId, expiryHours);
+                        emailTemplate = Template.UniqueLink;
+                        info = $"This is a one-time invite unique link with expiry of {expiryHours} hours.";
+                    }
+                    else
+                    {
+                        token = _tokenCreator(surveyId); /// simialry ot noral survey
+                        emailTemplate = Template.Invite;
+                        info = "Link to fill the survey.";
+                    }
+
+                    emails.Add(new EmailBody
+                    {
+                        Email = user.Email,
+                        Link = $"https://localhost:7890/api/form/{token}",
+                        Template = emailTemplate,
+                        Info = info
+                    });
+                }
+
+                // Send batch emails via Kafka
+                await _kafkaProducer.SendBatchMessagesAsync(emails);
+
+                _logger.LogInformation($"Survey {surveyId} emails sent successfully.");
             }
 
-            return;
 
+            /// Mark the task compeleted
+            var filterTask = Builders<SurveyTask>.Filter.Where(s => s.SurveyId == surveyId && s.TaskType == TaskType.ScheduleStart);
+            var updateTask = Builders<SurveyTask>.Update
+                .Set(s => s.TaskStatus, Models.POCOs.TaskStatus.Completed);
+            await _surveyTask.FindOneAndUpdateAsync(filterTask, updateTask);
+            return;
         }
+
+        private string _tokenCreator(string surveyId, string? userId = null, int? expiryHours = null)
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes("ThisIsAStaticLongEnoughSecretKeyForJWTGeneration123!");
+
+            var claims = new List<Claim>
+            {
+                new Claim("surveyId", surveyId)
+            };
+
+            if (!string.IsNullOrEmpty(userId))
+            {
+                claims.Add(new Claim("userId", userId));
+            }
+
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(claims),
+                Expires = expiryHours.HasValue ? DateTime.UtcNow.AddHours(expiryHours.Value) : null,
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            };
+
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(token);
+        }
+
+
+
     }
 }

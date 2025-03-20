@@ -85,3 +85,4 @@ C:\Users\HEMANT\Desktop\Vengence\MasterNode\obj\Debug\net8.0\MasterNode.pdb
 C:\Users\HEMANT\Desktop\Vengence\MasterNode\obj\Debug\net8.0\MasterNode.genruntimeconfig.cache
 C:\Users\HEMANT\Desktop\Vengence\MasterNode\obj\Debug\net8.0\ref\MasterNode.dll
 C:\Users\HEMANT\Desktop\Vengence\MasterNode\bin\Debug\net8.0\RestSharp.dll
+C:\Users\HEMANT\Desktop\Vengence\MasterNode\obj\Debug\net8.0\MasterNode.sourcelink.json

@@ -3,76 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\controllers\\scheduleremaindercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:controllers\\scheduleremaindercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\controllers\\basicconfigcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:controllers\\basicconfigcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\models\\pocos\\surveyconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:models\\pocos\\surveyconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\models\\pocos\\surveytask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:models\\pocos\\surveytask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\models\\pocos\\surveyschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:models\\pocos\\surveyschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\controllers\\schedulestartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:controllers\\schedulestartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\models\\dtos\\dto01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:models\\dtos\\dto01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\models\\dtos\\dto02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:models\\dtos\\dto02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\services\\apiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:services\\apiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\controllers\\scheduleendcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:controllers\\scheduleendcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\controllers\\restrictedsurveyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:controllers\\restrictedsurveyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\services\\mongodbtestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:services\\mongodbtestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\mappingprofile\\surveyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:mappingprofile\\surveyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|c:\\users\\hemant\\desktop\\vengence\\masternode\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7109E5EF-BBA9-488D-AA65-AF9A86F5001F}|MasterNode.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -87,235 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ScheduleRemainderController.cs",
-              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Controllers\\ScheduleRemainderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ScheduleRemainderController.cs",
-              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Controllers\\ScheduleRemainderController.cs",
-              "RelativeToolTip": "Controllers\\ScheduleRemainderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T07:17:01.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ScheduleEndController.cs",
-              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Controllers\\ScheduleEndController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ScheduleEndController.cs",
-              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Controllers\\ScheduleEndController.cs",
-              "RelativeToolTip": "Controllers\\ScheduleEndController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAuwC0AAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T06:48:32.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ApiServices.cs",
-              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Services\\ApiServices.cs",
-              "RelativeDocumentMoniker": "Services\\ApiServices.cs",
-              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Services\\ApiServices.cs",
-              "RelativeToolTip": "Services\\ApiServices.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T12:40:55.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RestrictedSurveyConfig.cs",
-              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Controllers\\RestrictedSurveyConfig.cs",
-              "RelativeDocumentMoniker": "Controllers\\RestrictedSurveyConfig.cs",
-              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Controllers\\RestrictedSurveyConfig.cs",
-              "RelativeToolTip": "Controllers\\RestrictedSurveyConfig.cs",
-              "ViewState": "AgIAAKAAAAAAAAAAAAAkwCQAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T11:18:18.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "ScheduleStartController.cs",
               "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Controllers\\ScheduleStartController.cs",
               "RelativeDocumentMoniker": "Controllers\\ScheduleStartController.cs",
               "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Controllers\\ScheduleStartController.cs",
               "RelativeToolTip": "Controllers\\ScheduleStartController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwFQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T10:45:28.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SurveyConfigurations.cs",
-              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Models\\POCOs\\SurveyConfigurations.cs",
-              "RelativeDocumentMoniker": "Models\\POCOs\\SurveyConfigurations.cs",
-              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Models\\POCOs\\SurveyConfigurations.cs",
-              "RelativeToolTip": "Models\\POCOs\\SurveyConfigurations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T06:55:51.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DTO02.cs",
-              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Models\\DTOs\\DTO02.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\DTO02.cs",
-              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Models\\DTOs\\DTO02.cs",
-              "RelativeToolTip": "Models\\DTOs\\DTO02.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T06:15:29.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SurveyProfile.cs",
-              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\MappingProfile\\SurveyProfile.cs",
-              "RelativeDocumentMoniker": "MappingProfile\\SurveyProfile.cs",
-              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\MappingProfile\\SurveyProfile.cs",
-              "RelativeToolTip": "MappingProfile\\SurveyProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T06:09:29.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SurveySchema.cs",
-              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Models\\POCOs\\SurveySchema.cs",
-              "RelativeDocumentMoniker": "Models\\POCOs\\SurveySchema.cs",
-              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Models\\POCOs\\SurveySchema.cs",
-              "RelativeToolTip": "Models\\POCOs\\SurveySchema.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T06:02:03.524Z",
+              "WhenOpened": "2025-03-13T10:39:57.907Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BasicConfigController.cs",
-              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Controllers\\BasicConfigController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BasicConfigController.cs",
-              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Controllers\\BasicConfigController.cs",
-              "RelativeToolTip": "Controllers\\BasicConfigController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T06:00:34.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T10:07:21.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DTO01.cs",
-              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Models\\DTOs\\DTO01.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\DTO01.cs",
-              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Models\\DTOs\\DTO01.cs",
-              "RelativeToolTip": "Models\\DTOs\\DTO01.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA3wBoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T09:56:39.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SurveyTask.cs",
-              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Models\\POCOs\\SurveyTask.cs",
-              "RelativeDocumentMoniker": "Models\\POCOs\\SurveyTask.cs",
-              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Models\\POCOs\\SurveyTask.cs",
-              "RelativeToolTip": "Models\\POCOs\\SurveyTask.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T09:22:52.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Models\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "Models\\ApiResponse.cs",
-              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Models\\ApiResponse.cs",
-              "RelativeToolTip": "Models\\ApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T09:22:06.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MongoDbTestService.cs",
-              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Services\\MongoDbTestService.cs",
-              "RelativeDocumentMoniker": "Services\\MongoDbTestService.cs",
-              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Services\\MongoDbTestService.cs",
-              "RelativeToolTip": "Services\\MongoDbTestService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T18:20:11.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",
               "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Startup.cs",
               "RelativeToolTip": "Startup.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBMAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T18:16:19.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T18:15:04.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\HEMANT\\Desktop\\Vengence\\MasterNode\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-04T18:13:18.864Z",
+              "WhenOpened": "2025-03-13T10:34:31.879Z",
               "EditorCaption": ""
             }
           ]

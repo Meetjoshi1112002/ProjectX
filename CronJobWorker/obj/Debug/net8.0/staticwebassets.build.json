@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "bDB66884rdm0uN+y5OOUksflZa+23TXK8BppY/9O8vM=",
+  "Source": "CronJobWorker",
+  "BasePath": "_content/CronJobWorker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

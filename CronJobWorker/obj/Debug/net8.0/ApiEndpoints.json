@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "CronJobWorker.Controllers.WorkerController",
+    "Method": "GetTaskAsync",
+    "RelativePath": "api/inform-task",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_dto",
+        "Type": "CronJobWorker.Models.DTOs.MessageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

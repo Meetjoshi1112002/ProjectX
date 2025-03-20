@@ -41,12 +41,16 @@ public class SurveyStartController : ControllerBase
             {
                 return BadRequest(new ApiResponse { Success = false, Message = "Cannot schedule a start for an active survey." });
             }
-            if (survey.Config.Scheduling.EndTime.HasValue && survey.Config.Scheduling.EndTime < startTime)
+            else if (survey.Config.Scheduling.EndTime.HasValue && survey.Config.Scheduling.EndTime < startTime)
             {
                 return BadRequest(new ApiResponse { Success = false, Message = "Survey cannot start after it ended." });
             }
+            else if (startTime < DateTime.UtcNow)
+            {
+                return BadRequest(new ApiResponse { Success = false, Message = "Invalid time of past " });
+            }
 
-            // Check if the slave service is healthy
+                /// Check if the slave service is healthy
             var heartBeatFilter = Builders<HeartBeat>.Filter.Where(h => h.Id == "67ced78f39538b6a4d3792c2" && h.HealthStatus == HealthStatus.Healthy);
             var heartBeat = await _slaveService.Find(heartBeatFilter).FirstOrDefaultAsync();
             if (heartBeat == null)
@@ -73,7 +77,7 @@ public class SurveyStartController : ControllerBase
                 return StatusCode(StatusCodes.Status503ServiceUnavailable, new ApiResponse { Success = false, Message = "Service unavailable. Please try again later." });
             }
 
-            string jobId = response.Data.JobId;
+            string jobId = response.Data.GetString();
 
             if (previousTask == null)
             {
@@ -97,7 +101,9 @@ public class SurveyStartController : ControllerBase
             }
 
             // Update survey scheduling time
-            var update = Builders<SurveySchema>.Update.Set(s => s.Config.Scheduling.StartTime, startTime);
+            var update = Builders<SurveySchema>.Update
+                .Set(s => s.Config.Scheduling.StartTime, startTime)
+                .Set(s => s.Config.Status, SurveyStatus.Scheduled);
             await _surveys.UpdateOneAsync(surveyFilter, update);
 
             return Ok(new ApiResponse { Success = true, Data = survey });

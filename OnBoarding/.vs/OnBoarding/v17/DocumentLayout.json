@@ -50,8 +50,7 @@
               "RelativeToolTip": "OnBoarding.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-06T19:12:19.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T19:12:19.472Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "Controllers\\SignupController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T09:15:43.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T09:15:43.698Z"
             },
             {
               "$type": "Document",
@@ -100,8 +98,7 @@
               "RelativeToolTip": "Startup.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T09:14:18.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T09:14:18.701Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "Services\\MyEmailProducer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T07:27:43.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T07:27:43.873Z"
             }
           ]
         }

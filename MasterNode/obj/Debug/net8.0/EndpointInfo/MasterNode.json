@@ -345,15 +345,6 @@
           },
           "accessType": {
             "$ref": "#/components/schemas/AccessType"
-          },
-          "requireUniqueLink": {
-            "type": "boolean",
-            "nullable": true
-          },
-          "linkExpiryHours": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
           }
         },
         "additionalProperties": false

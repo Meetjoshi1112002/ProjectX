@@ -72,7 +72,7 @@ namespace MasterNode.Controllers
                     return StatusCode(StatusCodes.Status503ServiceUnavailable, new ApiResponse { Success = false, Message = "Service unavailable. Please try again later." });
                 }
 
-                string jobId = response.Data.JobId;
+                string jobId = (string)response.Data;
 
                 if (previousTask == null)
                 {

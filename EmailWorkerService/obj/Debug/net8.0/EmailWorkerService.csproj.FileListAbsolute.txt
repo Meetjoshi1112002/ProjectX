@@ -78,3 +78,4 @@ C:\Users\HEMANT\Desktop\Vengence\EmailWorkerService\obj\Debug\net8.0\EmailWorker
 C:\Users\HEMANT\Desktop\Vengence\EmailWorkerService\obj\Debug\net8.0\ref\EmailWorkerService.dll
 C:\Users\HEMANT\Desktop\Vengence\EmailWorkerService\bin\Debug\net8.0\DotNetEnv.dll
 C:\Users\HEMANT\Desktop\Vengence\EmailWorkerService\bin\Debug\net8.0\Sprache.dll
+C:\Users\HEMANT\Desktop\Vengence\EmailWorkerService\obj\Debug\net8.0\EmailWorkerService.sourcelink.json
